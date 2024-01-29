@@ -11,7 +11,7 @@ Welcome to my NFL Prediction repository! This project uses machine learning to p
 + **Average Points Allowed:** Average points allowed by each team, displaying the defensive strength of a team.
 
 # Data Source
-The data used in this project originates from [nflverse](https://github.com/nflverse/nfldata).
+The data used in this project originates from [nflverse/nfldata](https://github.com/nflverse/nfldata).
 
 
 # Future Improvements
