@@ -10,9 +10,6 @@ Welcome to my NFL Prediction repository! This project uses machine learning to p
 + **Average Points Scored:** Average points scored by each team, displaying the offensive strength of a team.
 + **Average Points Allowed:** Average points allowed by each team, displaying the defensive strength of a team.
 
-# Data Source
-The data used in this project originates from [nflverse/nfldata](https://github.com/nflverse/nfldata).
-
 # Performance
 The best model has a accuracy of 67.0% predicting the winners of NFLs 2023 Season games.
 This model is a RandomForest and uses:
@@ -25,3 +22,6 @@ This model is a RandomForest and uses:
 + Enhance existing features
 + Create additional features
 + Ensembling
+
+# Data Source
+The data used in this project originates from [nflverse/nfldata](https://github.com/nflverse/nfldata).
