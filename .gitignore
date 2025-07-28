@@ -113,3 +113,6 @@ venv.bak/
 
 .DS_Store
 functions.py
+process.py
+config.py
+placeholder.ipynb
