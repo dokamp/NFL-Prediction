@@ -1,5 +1,6 @@
 # NFL Prediction
 Welcome to my NFL Prediction repository! This project uses machine learning to predict the outcomes of future NFL games based on various features. The goal of this project is to get the most out of simple features via feature engineering.
+
 ![Model Performance](media/2024_XGB_Accuracy.jpg)
 
 # Calculated Features
@@ -12,10 +13,11 @@ Welcome to my NFL Prediction repository! This project uses machine learning to p
 + **Average Points Allowed:** Average points allowed by each team, displaying the defensive strength of a team.
 
 # Performance
-The best model has a accuracy of 67.0% predicting the winners of NFLs 2023 Season games.
-This model is a RandomForest and uses:
+The best model scored an overall accuracy of 70.526% in the 2024 season. 
+It also predicted 92.307% of the playoff games correctly.
+This model is a XGB and uses:
 + **alpha = 0.7 :** Controls elo rating reset at the start of each season with 0 = Hard Reset and 1 = No Reset. So 0.7 is considered a soft reset.
-+ **week_change = 3 :** Indicates at which week into the season the model starts using the current season average points & points allowed instead of using the average of the last x seasons.
++ **week_change = 1 :** Indicates at which week into the season the model starts using the current season average points & points allowed instead of using the average of the last x seasons.
 + **last_seasons = 2 :** Determines how many of the last seasons are included in the calculation of the average points & points allowed.
 
 # Future Improvements
@@ -23,6 +25,7 @@ This model is a RandomForest and uses:
 + Enhance existing features
 + Create additional features
 + Ensembling
++ Improve early season prediction
 
 # Data Source
 The data used in this project originates from [nflverse/nfldata](https://github.com/nflverse/nfldata).
