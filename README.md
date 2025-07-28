@@ -1,6 +1,6 @@
 # NFL Prediction
 Welcome to my NFL Prediction repository! This project uses machine learning to predict the outcomes of future NFL games based on various features. The goal of this project is to get the most out of simple features via feature engineering.
-[](media/2024_XGB_Accuracy.jpg)
+![Model Performance](media/2024_XGB_Accuracy.jpg)
 
 # Calculated Features
 ## Elo Ratings
