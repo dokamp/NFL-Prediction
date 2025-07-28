@@ -13,10 +13,8 @@ Welcome to my NFL Prediction repository! This project uses machine learning to p
 + **Average Points Allowed:** Average points allowed by each team, displaying the defensive strength of a team.
 
 # Performance
-The best model scored an overall accuracy of **70.526%** in the 2024 season. 
-##
-It also predicted **92.307%** of the playoff games correctly.
-##
+The best model scored an overall accuracy of **70.526%** in the 2024 season.\
+It also predicted **92.307%** of the playoff games correctly.\
 This model based on XGB and uses:
 + **alpha = 0.7 :** Controls elo rating reset at the start of each season with 0 = Hard Reset and 1 = No Reset. So 0.7 is considered a soft reset.
 + **week_change = 1 :** Indicates at which week into the season the model starts using the current season average points & points allowed instead of using the average of the last x seasons.
